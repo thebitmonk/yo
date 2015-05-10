@@ -1,0 +1,324 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Handler	service_common/StoreDBMaster.h	/^  typedef StoreDBMasterIf Handler;$/;"	t	class:storedb::StoreDBMasterIfFactory
+Key	service_common/StoreDB_types.cpp	/^Key::Key(const Key& other0) {$/;"	f	class:storedb::Key
+Key	service_common/StoreDB_types.h	/^  Key() : id(0), command(), email() {$/;"	f	class:storedb::Key
+Key	service_common/StoreDB_types.h	/^class Key {$/;"	c	namespace:storedb
+MultiResponse	service_common/StoreDB_types.cpp	/^MultiResponse::MultiResponse(const MultiResponse& other12) {$/;"	f	class:storedb::MultiResponse
+MultiResponse	service_common/StoreDB_types.h	/^  MultiResponse() : status(0), time(0) {$/;"	f	class:storedb::MultiResponse
+MultiResponse	service_common/StoreDB_types.h	/^class MultiResponse {$/;"	c	namespace:storedb
+ProcessFunction	service_common/StoreDBMaster.h	/^  typedef  void (StoreDBMasterProcessor::*ProcessFunction)(int32_t, ::apache::thrift::protocol::TProtocol*, ::apache::thrift::protocol::TProtocol*, void*);$/;"	t	class:storedb::StoreDBMasterProcessor
+ProcessMap	service_common/StoreDBMaster.h	/^  typedef std::map<std::string, ProcessFunction> ProcessMap;$/;"	t	class:storedb::StoreDBMasterProcessor
+Response	service_common/StoreDB_types.cpp	/^Response::Response(const Response& other4) {$/;"	f	class:storedb::Response
+Response	service_common/StoreDB_types.h	/^  Response() : status(0), time(0), data() {$/;"	f	class:storedb::Response
+Response	service_common/StoreDB_types.h	/^class Response {$/;"	c	namespace:storedb
+StoreDBConstants	service_common/StoreDB_constants.cpp	/^StoreDBConstants::StoreDBConstants() {$/;"	f	class:storedb::StoreDBConstants
+StoreDBConstants	service_common/StoreDB_constants.h	/^class StoreDBConstants {$/;"	c	namespace:storedb
+StoreDBMasterClient	service_common/StoreDBMaster.h	/^  StoreDBMasterClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:storedb::StoreDBMasterClient
+StoreDBMasterClient	service_common/StoreDBMaster.h	/^  StoreDBMasterClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:storedb::StoreDBMasterClient
+StoreDBMasterClient	service_common/StoreDBMaster.h	/^class StoreDBMasterClient : virtual public StoreDBMasterIf {$/;"	c	namespace:storedb
+StoreDBMasterIf	service_common/StoreDBMaster.h	/^class StoreDBMasterIf {$/;"	c	namespace:storedb
+StoreDBMasterIfFactory	service_common/StoreDBMaster.h	/^class StoreDBMasterIfFactory {$/;"	c	namespace:storedb
+StoreDBMasterIfSingletonFactory	service_common/StoreDBMaster.h	/^  StoreDBMasterIfSingletonFactory(const boost::shared_ptr<StoreDBMasterIf>& iface) : iface_(iface) {}$/;"	f	class:storedb::StoreDBMasterIfSingletonFactory
+StoreDBMasterIfSingletonFactory	service_common/StoreDBMaster.h	/^class StoreDBMasterIfSingletonFactory : virtual public StoreDBMasterIfFactory {$/;"	c	namespace:storedb
+StoreDBMasterMultiface	service_common/StoreDBMaster.h	/^  StoreDBMasterMultiface() {}$/;"	f	class:storedb::StoreDBMasterMultiface
+StoreDBMasterMultiface	service_common/StoreDBMaster.h	/^  StoreDBMasterMultiface(std::vector<boost::shared_ptr<StoreDBMasterIf> >& ifaces) : ifaces_(ifaces) {$/;"	f	class:storedb::StoreDBMasterMultiface
+StoreDBMasterMultiface	service_common/StoreDBMaster.h	/^class StoreDBMasterMultiface : virtual public StoreDBMasterIf {$/;"	c	namespace:storedb
+StoreDBMasterNull	service_common/StoreDBMaster.h	/^class StoreDBMasterNull : virtual public StoreDBMasterIf {$/;"	c	namespace:storedb
+StoreDBMasterProcessor	service_common/StoreDBMaster.h	/^  StoreDBMasterProcessor(boost::shared_ptr<StoreDBMasterIf> iface) :$/;"	f	class:storedb::StoreDBMasterProcessor
+StoreDBMasterProcessor	service_common/StoreDBMaster.h	/^class StoreDBMasterProcessor : public ::apache::thrift::TDispatchProcessor {$/;"	c	namespace:storedb
+StoreDBMasterProcessorFactory	service_common/StoreDBMaster.h	/^  StoreDBMasterProcessorFactory(const ::boost::shared_ptr< StoreDBMasterIfFactory >& handlerFactory) :$/;"	f	class:storedb::StoreDBMasterProcessorFactory
+StoreDBMasterProcessorFactory	service_common/StoreDBMaster.h	/^class StoreDBMasterProcessorFactory : public ::apache::thrift::TProcessorFactory {$/;"	c	namespace:storedb
+StoreDBMaster_H	service_common/StoreDBMaster.h	8;"	d
+StoreDBMaster_add_args	service_common/StoreDBMaster.h	/^  StoreDBMaster_add_args() : key(), value() {$/;"	f	class:storedb::StoreDBMaster_add_args
+StoreDBMaster_add_args	service_common/StoreDBMaster.h	/^class StoreDBMaster_add_args {$/;"	c	namespace:storedb
+StoreDBMaster_add_pargs	service_common/StoreDBMaster.h	/^class StoreDBMaster_add_pargs {$/;"	c	namespace:storedb
+StoreDBMaster_add_presult	service_common/StoreDBMaster.h	/^class StoreDBMaster_add_presult {$/;"	c	namespace:storedb
+StoreDBMaster_add_result	service_common/StoreDBMaster.h	/^  StoreDBMaster_add_result() {$/;"	f	class:storedb::StoreDBMaster_add_result
+StoreDBMaster_add_result	service_common/StoreDBMaster.h	/^class StoreDBMaster_add_result {$/;"	c	namespace:storedb
+StoreDBMaster_isOk_args	service_common/StoreDBMaster.h	/^  StoreDBMaster_isOk_args() {$/;"	f	class:storedb::StoreDBMaster_isOk_args
+StoreDBMaster_isOk_args	service_common/StoreDBMaster.h	/^class StoreDBMaster_isOk_args {$/;"	c	namespace:storedb
+StoreDBMaster_isOk_pargs	service_common/StoreDBMaster.h	/^class StoreDBMaster_isOk_pargs {$/;"	c	namespace:storedb
+StoreDBMaster_isOk_presult	service_common/StoreDBMaster.h	/^class StoreDBMaster_isOk_presult {$/;"	c	namespace:storedb
+StoreDBMaster_isOk_result	service_common/StoreDBMaster.h	/^  StoreDBMaster_isOk_result() {$/;"	f	class:storedb::StoreDBMaster_isOk_result
+StoreDBMaster_isOk_result	service_common/StoreDBMaster.h	/^class StoreDBMaster_isOk_result {$/;"	c	namespace:storedb
+StoreDBMaster_search_args	service_common/StoreDBMaster.h	/^  StoreDBMaster_search_args() : prefix() {$/;"	f	class:storedb::StoreDBMaster_search_args
+StoreDBMaster_search_args	service_common/StoreDBMaster.h	/^class StoreDBMaster_search_args {$/;"	c	namespace:storedb
+StoreDBMaster_search_pargs	service_common/StoreDBMaster.h	/^class StoreDBMaster_search_pargs {$/;"	c	namespace:storedb
+StoreDBMaster_search_presult	service_common/StoreDBMaster.h	/^class StoreDBMaster_search_presult {$/;"	c	namespace:storedb
+StoreDBMaster_search_result	service_common/StoreDBMaster.h	/^  StoreDBMaster_search_result() {$/;"	f	class:storedb::StoreDBMaster_search_result
+StoreDBMaster_search_result	service_common/StoreDBMaster.h	/^class StoreDBMaster_search_result {$/;"	c	namespace:storedb
+StoreDB_CONSTANTS_H	service_common/StoreDB_constants.h	8;"	d
+StoreDB_TYPES_H	service_common/StoreDB_types.h	8;"	d
+Value	service_common/StoreDB_types.cpp	/^Value::Value(const Value& other2) {$/;"	f	class:storedb::Value
+Value	service_common/StoreDB_types.h	/^  Value() : options(), description(), upVotes(0), downVotes(0) {$/;"	f	class:storedb::Value
+Value	service_common/StoreDB_types.h	/^class Value {$/;"	c	namespace:storedb
+_Key__isset	service_common/StoreDB_types.h	/^  _Key__isset() : email(false) {}$/;"	f	struct:storedb::_Key__isset
+_Key__isset	service_common/StoreDB_types.h	/^typedef struct _Key__isset {$/;"	s	namespace:storedb
+_Key__isset	service_common/StoreDB_types.h	/^} _Key__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_Key__isset
+_MultiResponse__isset	service_common/StoreDB_types.h	/^  _MultiResponse__isset() : time(false), data(false) {}$/;"	f	struct:storedb::_MultiResponse__isset
+_MultiResponse__isset	service_common/StoreDB_types.h	/^typedef struct _MultiResponse__isset {$/;"	s	namespace:storedb
+_MultiResponse__isset	service_common/StoreDB_types.h	/^} _MultiResponse__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_MultiResponse__isset
+_Response__isset	service_common/StoreDB_types.h	/^  _Response__isset() : time(false), data(false) {}$/;"	f	struct:storedb::_Response__isset
+_Response__isset	service_common/StoreDB_types.h	/^typedef struct _Response__isset {$/;"	s	namespace:storedb
+_Response__isset	service_common/StoreDB_types.h	/^} _Response__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_Response__isset
+_StoreDBMaster_add_args__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_args__isset() : key(false), value(false) {}$/;"	f	struct:storedb::_StoreDBMaster_add_args__isset
+_StoreDBMaster_add_args__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_add_args__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_add_args__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_add_args__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_add_args__isset
+_StoreDBMaster_add_presult__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_presult__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_add_presult__isset
+_StoreDBMaster_add_presult__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_add_presult__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_add_presult__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_add_presult__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_add_presult__isset
+_StoreDBMaster_add_result__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_result__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_add_result__isset
+_StoreDBMaster_add_result__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_add_result__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_add_result__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_add_result__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_add_result__isset
+_StoreDBMaster_isOk_presult__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_isOk_presult__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_isOk_presult__isset
+_StoreDBMaster_isOk_presult__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_isOk_presult__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_isOk_presult__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_isOk_presult__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_isOk_presult__isset
+_StoreDBMaster_isOk_result__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_isOk_result__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_isOk_result__isset
+_StoreDBMaster_isOk_result__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_isOk_result__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_isOk_result__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_isOk_result__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_isOk_result__isset
+_StoreDBMaster_search_args__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_args__isset() : prefix(false) {}$/;"	f	struct:storedb::_StoreDBMaster_search_args__isset
+_StoreDBMaster_search_args__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_search_args__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_search_args__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_search_args__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_search_args__isset
+_StoreDBMaster_search_presult__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_presult__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_search_presult__isset
+_StoreDBMaster_search_presult__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_search_presult__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_search_presult__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_search_presult__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_search_presult__isset
+_StoreDBMaster_search_result__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_result__isset() : success(false) {}$/;"	f	struct:storedb::_StoreDBMaster_search_result__isset
+_StoreDBMaster_search_result__isset	service_common/StoreDBMaster.h	/^typedef struct _StoreDBMaster_search_result__isset {$/;"	s	namespace:storedb
+_StoreDBMaster_search_result__isset	service_common/StoreDBMaster.h	/^} _StoreDBMaster_search_result__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_StoreDBMaster_search_result__isset
+_Value__isset	service_common/StoreDB_types.h	/^  _Value__isset() : upVotes(false), downVotes(false) {}$/;"	f	struct:storedb::_Value__isset
+_Value__isset	service_common/StoreDB_types.h	/^typedef struct _Value__isset {$/;"	s	namespace:storedb
+_Value__isset	service_common/StoreDB_types.h	/^} _Value__isset;$/;"	t	namespace:storedb	typeref:struct:storedb::_Value__isset
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_args__isset __isset;$/;"	m	class:storedb::StoreDBMaster_add_args
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_presult__isset __isset;$/;"	m	class:storedb::StoreDBMaster_add_presult
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_add_result__isset __isset;$/;"	m	class:storedb::StoreDBMaster_add_result
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_isOk_presult__isset __isset;$/;"	m	class:storedb::StoreDBMaster_isOk_presult
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_isOk_result__isset __isset;$/;"	m	class:storedb::StoreDBMaster_isOk_result
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_args__isset __isset;$/;"	m	class:storedb::StoreDBMaster_search_args
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_presult__isset __isset;$/;"	m	class:storedb::StoreDBMaster_search_presult
+__isset	service_common/StoreDBMaster.h	/^  _StoreDBMaster_search_result__isset __isset;$/;"	m	class:storedb::StoreDBMaster_search_result
+__isset	service_common/StoreDB_types.h	/^  _Key__isset __isset;$/;"	m	class:storedb::Key
+__isset	service_common/StoreDB_types.h	/^  _MultiResponse__isset __isset;$/;"	m	class:storedb::MultiResponse
+__isset	service_common/StoreDB_types.h	/^  _Response__isset __isset;$/;"	m	class:storedb::Response
+__isset	service_common/StoreDB_types.h	/^  _Value__isset __isset;$/;"	m	class:storedb::Value
+__set_command	service_common/StoreDB_types.cpp	/^void Key::__set_command(const std::string& val) {$/;"	f	class:storedb::Key
+__set_data	service_common/StoreDB_types.cpp	/^void MultiResponse::__set_data(const std::vector<std::string> & val) {$/;"	f	class:storedb::MultiResponse
+__set_data	service_common/StoreDB_types.cpp	/^void Response::__set_data(const std::string& val) {$/;"	f	class:storedb::Response
+__set_description	service_common/StoreDB_types.cpp	/^void Value::__set_description(const std::string& val) {$/;"	f	class:storedb::Value
+__set_downVotes	service_common/StoreDB_types.cpp	/^void Value::__set_downVotes(const int64_t val) {$/;"	f	class:storedb::Value
+__set_email	service_common/StoreDB_types.cpp	/^void Key::__set_email(const std::string& val) {$/;"	f	class:storedb::Key
+__set_id	service_common/StoreDB_types.cpp	/^void Key::__set_id(const int64_t val) {$/;"	f	class:storedb::Key
+__set_options	service_common/StoreDB_types.cpp	/^void Value::__set_options(const std::string& val) {$/;"	f	class:storedb::Value
+__set_status	service_common/StoreDB_types.cpp	/^void MultiResponse::__set_status(const bool val) {$/;"	f	class:storedb::MultiResponse
+__set_status	service_common/StoreDB_types.cpp	/^void Response::__set_status(const bool val) {$/;"	f	class:storedb::Response
+__set_time	service_common/StoreDB_types.cpp	/^void MultiResponse::__set_time(const double val) {$/;"	f	class:storedb::MultiResponse
+__set_time	service_common/StoreDB_types.cpp	/^void Response::__set_time(const double val) {$/;"	f	class:storedb::Response
+__set_upVotes	service_common/StoreDB_types.cpp	/^void Value::__set_upVotes(const int64_t val) {$/;"	f	class:storedb::Value
+add	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::add(Response& _return, const std::string& key, const std::string& value)$/;"	f	class:storedb::StoreDBMasterClient
+add	service_common/StoreDBMaster.h	/^  void add(Response& \/* _return *\/, const std::string& \/* key *\/, const std::string& \/* value *\/) {$/;"	f	class:storedb::StoreDBMasterNull
+add	service_common/StoreDBMaster.h	/^  void add(Response& _return, const std::string& key, const std::string& value) {$/;"	f	class:storedb::StoreDBMasterMultiface
+add	service_common/StoreDBMaster.h	/^  void add(boost::shared_ptr<StoreDBMasterIf> iface) {$/;"	f	class:storedb::StoreDBMasterMultiface
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "07A9615F837F7D0A952B595DD3020972";$/;"	m	class:storedb::StoreDBMaster_add_args
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "07A9615F837F7D0A952B595DD3020972";$/;"	m	class:storedb::StoreDBMaster_add_pargs
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "1E3FEAF846610A0C7D48EF3D6B340A7F";$/;"	m	class:storedb::StoreDBMaster_add_presult
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "1E3FEAF846610A0C7D48EF3D6B340A7F";$/;"	m	class:storedb::StoreDBMaster_add_result
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "1E3FEAF846610A0C7D48EF3D6B340A7F";$/;"	m	class:storedb::StoreDBMaster_isOk_presult
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "1E3FEAF846610A0C7D48EF3D6B340A7F";$/;"	m	class:storedb::StoreDBMaster_isOk_result
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "537259DD471FCB08C8C2FDE2D8E1FA09";$/;"	m	class:storedb::StoreDBMaster_search_presult
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "537259DD471FCB08C8C2FDE2D8E1FA09";$/;"	m	class:storedb::StoreDBMaster_search_result
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "99914B932BD37A50B983C5E7C90AE93B";$/;"	m	class:storedb::StoreDBMaster_isOk_args
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "99914B932BD37A50B983C5E7C90AE93B";$/;"	m	class:storedb::StoreDBMaster_isOk_pargs
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "EFB929595D312AC8F305D5A794CFEDA1";$/;"	m	class:storedb::StoreDBMaster_search_args
+ascii_fingerprint	service_common/StoreDBMaster.h	/^  static const char* ascii_fingerprint; \/\/ = "EFB929595D312AC8F305D5A794CFEDA1";$/;"	m	class:storedb::StoreDBMaster_search_pargs
+ascii_fingerprint	service_common/StoreDB_types.cpp	/^const char* Key::ascii_fingerprint = "0C4016F101C6C444DB4E691757431FAD";$/;"	m	class:storedb::Key	file:
+ascii_fingerprint	service_common/StoreDB_types.cpp	/^const char* MultiResponse::ascii_fingerprint = "6F3B439354C74F26BFA95443F818BC43";$/;"	m	class:storedb::MultiResponse	file:
+ascii_fingerprint	service_common/StoreDB_types.cpp	/^const char* Response::ascii_fingerprint = "2B9F0148AA280E12E64262FA5EF8CF2B";$/;"	m	class:storedb::Response	file:
+ascii_fingerprint	service_common/StoreDB_types.cpp	/^const char* Value::ascii_fingerprint = "50272E49E7C02012722B8F62131C940B";$/;"	m	class:storedb::Value	file:
+ascii_fingerprint	service_common/StoreDB_types.h	/^  static const char* ascii_fingerprint; \/\/ = "0C4016F101C6C444DB4E691757431FAD";$/;"	m	class:storedb::Key
+ascii_fingerprint	service_common/StoreDB_types.h	/^  static const char* ascii_fingerprint; \/\/ = "2B9F0148AA280E12E64262FA5EF8CF2B";$/;"	m	class:storedb::Response
+ascii_fingerprint	service_common/StoreDB_types.h	/^  static const char* ascii_fingerprint; \/\/ = "50272E49E7C02012722B8F62131C940B";$/;"	m	class:storedb::Value
+ascii_fingerprint	service_common/StoreDB_types.h	/^  static const char* ascii_fingerprint; \/\/ = "6F3B439354C74F26BFA95443F818BC43";$/;"	m	class:storedb::MultiResponse
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x07,0xA9,0x61,0x5F,0x83,0x7F,0x7D,0x0A,0x95,0x2B,0x59,0x5D,0xD3,0x02,0x09,0x72};$/;"	m	class:storedb::StoreDBMaster_add_args
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x07,0xA9,0x61,0x5F,0x83,0x7F,0x7D,0x0A,0x95,0x2B,0x59,0x5D,0xD3,0x02,0x09,0x72};$/;"	m	class:storedb::StoreDBMaster_add_pargs
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x1E,0x3F,0xEA,0xF8,0x46,0x61,0x0A,0x0C,0x7D,0x48,0xEF,0x3D,0x6B,0x34,0x0A,0x7F};$/;"	m	class:storedb::StoreDBMaster_add_presult
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x1E,0x3F,0xEA,0xF8,0x46,0x61,0x0A,0x0C,0x7D,0x48,0xEF,0x3D,0x6B,0x34,0x0A,0x7F};$/;"	m	class:storedb::StoreDBMaster_add_result
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x1E,0x3F,0xEA,0xF8,0x46,0x61,0x0A,0x0C,0x7D,0x48,0xEF,0x3D,0x6B,0x34,0x0A,0x7F};$/;"	m	class:storedb::StoreDBMaster_isOk_presult
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x1E,0x3F,0xEA,0xF8,0x46,0x61,0x0A,0x0C,0x7D,0x48,0xEF,0x3D,0x6B,0x34,0x0A,0x7F};$/;"	m	class:storedb::StoreDBMaster_isOk_result
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x53,0x72,0x59,0xDD,0x47,0x1F,0xCB,0x08,0xC8,0xC2,0xFD,0xE2,0xD8,0xE1,0xFA,0x09};$/;"	m	class:storedb::StoreDBMaster_search_presult
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x53,0x72,0x59,0xDD,0x47,0x1F,0xCB,0x08,0xC8,0xC2,0xFD,0xE2,0xD8,0xE1,0xFA,0x09};$/;"	m	class:storedb::StoreDBMaster_search_result
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x99,0x91,0x4B,0x93,0x2B,0xD3,0x7A,0x50,0xB9,0x83,0xC5,0xE7,0xC9,0x0A,0xE9,0x3B};$/;"	m	class:storedb::StoreDBMaster_isOk_args
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x99,0x91,0x4B,0x93,0x2B,0xD3,0x7A,0x50,0xB9,0x83,0xC5,0xE7,0xC9,0x0A,0xE9,0x3B};$/;"	m	class:storedb::StoreDBMaster_isOk_pargs
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xEF,0xB9,0x29,0x59,0x5D,0x31,0x2A,0xC8,0xF3,0x05,0xD5,0xA7,0x94,0xCF,0xED,0xA1};$/;"	m	class:storedb::StoreDBMaster_search_args
+binary_fingerprint	service_common/StoreDBMaster.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0xEF,0xB9,0x29,0x59,0x5D,0x31,0x2A,0xC8,0xF3,0x05,0xD5,0xA7,0x94,0xCF,0xED,0xA1};$/;"	m	class:storedb::StoreDBMaster_search_pargs
+binary_fingerprint	service_common/StoreDB_types.cpp	/^const uint8_t Key::binary_fingerprint[16] = {0x0C,0x40,0x16,0xF1,0x01,0xC6,0xC4,0x44,0xDB,0x4E,0x69,0x17,0x57,0x43,0x1F,0xAD};$/;"	m	class:storedb::Key	file:
+binary_fingerprint	service_common/StoreDB_types.cpp	/^const uint8_t MultiResponse::binary_fingerprint[16] = {0x6F,0x3B,0x43,0x93,0x54,0xC7,0x4F,0x26,0xBF,0xA9,0x54,0x43,0xF8,0x18,0xBC,0x43};$/;"	m	class:storedb::MultiResponse	file:
+binary_fingerprint	service_common/StoreDB_types.cpp	/^const uint8_t Response::binary_fingerprint[16] = {0x2B,0x9F,0x01,0x48,0xAA,0x28,0x0E,0x12,0xE6,0x42,0x62,0xFA,0x5E,0xF8,0xCF,0x2B};$/;"	m	class:storedb::Response	file:
+binary_fingerprint	service_common/StoreDB_types.cpp	/^const uint8_t Value::binary_fingerprint[16] = {0x50,0x27,0x2E,0x49,0xE7,0xC0,0x20,0x12,0x72,0x2B,0x8F,0x62,0x13,0x1C,0x94,0x0B};$/;"	m	class:storedb::Value	file:
+binary_fingerprint	service_common/StoreDB_types.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x0C,0x40,0x16,0xF1,0x01,0xC6,0xC4,0x44,0xDB,0x4E,0x69,0x17,0x57,0x43,0x1F,0xAD};$/;"	m	class:storedb::Key
+binary_fingerprint	service_common/StoreDB_types.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x2B,0x9F,0x01,0x48,0xAA,0x28,0x0E,0x12,0xE6,0x42,0x62,0xFA,0x5E,0xF8,0xCF,0x2B};$/;"	m	class:storedb::Response
+binary_fingerprint	service_common/StoreDB_types.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x50,0x27,0x2E,0x49,0xE7,0xC0,0x20,0x12,0x72,0x2B,0x8F,0x62,0x13,0x1C,0x94,0x0B};$/;"	m	class:storedb::Value
+binary_fingerprint	service_common/StoreDB_types.h	/^  static const uint8_t binary_fingerprint[16]; \/\/ = {0x6F,0x3B,0x43,0x93,0x54,0xC7,0x4F,0x26,0xBF,0xA9,0x54,0x43,0xF8,0x18,0xBC,0x43};$/;"	m	class:storedb::MultiResponse
+command	service_common/StoreDB_types.h	/^  std::string command;$/;"	m	class:storedb::Key
+data	service_common/StoreDB_types.h	/^  bool data :1;$/;"	m	struct:storedb::_MultiResponse__isset
+data	service_common/StoreDB_types.h	/^  bool data :1;$/;"	m	struct:storedb::_Response__isset
+data	service_common/StoreDB_types.h	/^  std::string data;$/;"	m	class:storedb::Response
+data	service_common/StoreDB_types.h	/^  std::vector<std::string>  data;$/;"	m	class:storedb::MultiResponse
+description	service_common/StoreDB_types.h	/^  std::string description;$/;"	m	class:storedb::Value
+dispatchCall	service_common/StoreDBMaster.cpp	/^bool StoreDBMasterProcessor::dispatchCall(::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, const std::string& fname, int32_t seqid, void* callContext) {$/;"	f	class:storedb::StoreDBMasterProcessor
+downVotes	service_common/StoreDB_types.h	/^  bool downVotes :1;$/;"	m	struct:storedb::_Value__isset
+downVotes	service_common/StoreDB_types.h	/^  int64_t downVotes;$/;"	m	class:storedb::Value
+email	service_common/StoreDB_types.h	/^  bool email :1;$/;"	m	struct:storedb::_Key__isset
+email	service_common/StoreDB_types.h	/^  std::string email;$/;"	m	class:storedb::Key
+g_StoreDB_constants	service_common/StoreDB_constants.cpp	/^const StoreDBConstants g_StoreDB_constants;$/;"	m	namespace:storedb	file:
+getHandler	service_common/StoreDBMaster.h	/^  virtual StoreDBMasterIf* getHandler(const ::apache::thrift::TConnectionInfo&) {$/;"	f	class:storedb::StoreDBMasterIfSingletonFactory
+getInputProtocol	service_common/StoreDBMaster.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getInputProtocol() {$/;"	f	class:storedb::StoreDBMasterClient
+getOutputProtocol	service_common/StoreDBMaster.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getOutputProtocol() {$/;"	f	class:storedb::StoreDBMasterClient
+getProcessor	service_common/StoreDBMaster.cpp	/^::boost::shared_ptr< ::apache::thrift::TProcessor > StoreDBMasterProcessorFactory::getProcessor(const ::apache::thrift::TConnectionInfo& connInfo) {$/;"	f	class:storedb::StoreDBMasterProcessorFactory
+handlerFactory_	service_common/StoreDBMaster.h	/^  ::boost::shared_ptr< StoreDBMasterIfFactory > handlerFactory_;$/;"	m	class:storedb::StoreDBMasterProcessorFactory
+id	service_common/StoreDB_types.h	/^  int64_t id;$/;"	m	class:storedb::Key
+iface_	service_common/StoreDBMaster.h	/^  boost::shared_ptr<StoreDBMasterIf> iface_;$/;"	m	class:storedb::StoreDBMasterIfSingletonFactory
+iface_	service_common/StoreDBMaster.h	/^  boost::shared_ptr<StoreDBMasterIf> iface_;$/;"	m	class:storedb::StoreDBMasterProcessor
+ifaces_	service_common/StoreDBMaster.h	/^  std::vector<boost::shared_ptr<StoreDBMasterIf> > ifaces_;$/;"	m	class:storedb::StoreDBMasterMultiface
+iprot_	service_common/StoreDBMaster.h	/^  ::apache::thrift::protocol::TProtocol* iprot_;$/;"	m	class:storedb::StoreDBMasterClient
+isOk	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::isOk(Response& _return)$/;"	f	class:storedb::StoreDBMasterClient
+isOk	service_common/StoreDBMaster.h	/^  void isOk(Response& \/* _return *\/) {$/;"	f	class:storedb::StoreDBMasterNull
+isOk	service_common/StoreDBMaster.h	/^  void isOk(Response& _return) {$/;"	f	class:storedb::StoreDBMasterMultiface
+key	service_common/StoreDBMaster.h	/^  bool key :1;$/;"	m	struct:storedb::_StoreDBMaster_add_args__isset
+key	service_common/StoreDBMaster.h	/^  const std::string* key;$/;"	m	class:storedb::StoreDBMaster_add_pargs
+key	service_common/StoreDBMaster.h	/^  std::string key;$/;"	m	class:storedb::StoreDBMaster_add_args
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_add_args &rhs) const {$/;"	f	class:storedb::StoreDBMaster_add_args
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_add_result &rhs) const {$/;"	f	class:storedb::StoreDBMaster_add_result
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_isOk_args &rhs) const {$/;"	f	class:storedb::StoreDBMaster_isOk_args
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_isOk_result &rhs) const {$/;"	f	class:storedb::StoreDBMaster_isOk_result
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_search_args &rhs) const {$/;"	f	class:storedb::StoreDBMaster_search_args
+operator !=	service_common/StoreDBMaster.h	/^  bool operator != (const StoreDBMaster_search_result &rhs) const {$/;"	f	class:storedb::StoreDBMaster_search_result
+operator !=	service_common/StoreDB_types.h	/^  bool operator != (const Key &rhs) const {$/;"	f	class:storedb::Key
+operator !=	service_common/StoreDB_types.h	/^  bool operator != (const MultiResponse &rhs) const {$/;"	f	class:storedb::MultiResponse
+operator !=	service_common/StoreDB_types.h	/^  bool operator != (const Response &rhs) const {$/;"	f	class:storedb::Response
+operator !=	service_common/StoreDB_types.h	/^  bool operator != (const Value &rhs) const {$/;"	f	class:storedb::Value
+operator <<	service_common/StoreDB_types.cpp	/^std::ostream& operator<<(std::ostream& out, const Key& obj) {$/;"	f	namespace:storedb
+operator <<	service_common/StoreDB_types.cpp	/^std::ostream& operator<<(std::ostream& out, const MultiResponse& obj) {$/;"	f	namespace:storedb
+operator <<	service_common/StoreDB_types.cpp	/^std::ostream& operator<<(std::ostream& out, const Response& obj) {$/;"	f	namespace:storedb
+operator <<	service_common/StoreDB_types.cpp	/^std::ostream& operator<<(std::ostream& out, const Value& obj) {$/;"	f	namespace:storedb
+operator =	service_common/StoreDB_types.cpp	/^Key& Key::operator=(const Key& other1) {$/;"	f	class:storedb::Key
+operator =	service_common/StoreDB_types.cpp	/^MultiResponse& MultiResponse::operator=(const MultiResponse& other13) {$/;"	f	class:storedb::MultiResponse
+operator =	service_common/StoreDB_types.cpp	/^Response& Response::operator=(const Response& other5) {$/;"	f	class:storedb::Response
+operator =	service_common/StoreDB_types.cpp	/^Value& Value::operator=(const Value& other3) {$/;"	f	class:storedb::Value
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_add_args & rhs) const$/;"	f	class:storedb::StoreDBMaster_add_args
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_add_result & rhs) const$/;"	f	class:storedb::StoreDBMaster_add_result
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_isOk_args & \/* rhs *\/) const$/;"	f	class:storedb::StoreDBMaster_isOk_args
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_isOk_result & rhs) const$/;"	f	class:storedb::StoreDBMaster_isOk_result
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_search_args & rhs) const$/;"	f	class:storedb::StoreDBMaster_search_args
+operator ==	service_common/StoreDBMaster.h	/^  bool operator == (const StoreDBMaster_search_result & rhs) const$/;"	f	class:storedb::StoreDBMaster_search_result
+operator ==	service_common/StoreDB_types.h	/^  bool operator == (const Key & rhs) const$/;"	f	class:storedb::Key
+operator ==	service_common/StoreDB_types.h	/^  bool operator == (const MultiResponse & rhs) const$/;"	f	class:storedb::MultiResponse
+operator ==	service_common/StoreDB_types.h	/^  bool operator == (const Response & rhs) const$/;"	f	class:storedb::Response
+operator ==	service_common/StoreDB_types.h	/^  bool operator == (const Value & rhs) const$/;"	f	class:storedb::Value
+oprot_	service_common/StoreDBMaster.h	/^  ::apache::thrift::protocol::TProtocol* oprot_;$/;"	m	class:storedb::StoreDBMasterClient
+options	service_common/StoreDB_types.h	/^  std::string options;$/;"	m	class:storedb::Value
+piprot_	service_common/StoreDBMaster.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> piprot_;$/;"	m	class:storedb::StoreDBMasterClient
+poprot_	service_common/StoreDBMaster.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> poprot_;$/;"	m	class:storedb::StoreDBMasterClient
+prefix	service_common/StoreDBMaster.h	/^  bool prefix :1;$/;"	m	struct:storedb::_StoreDBMaster_search_args__isset
+prefix	service_common/StoreDBMaster.h	/^  const std::string* prefix;$/;"	m	class:storedb::StoreDBMaster_search_pargs
+prefix	service_common/StoreDBMaster.h	/^  std::string prefix;$/;"	m	class:storedb::StoreDBMaster_search_args
+processMap_	service_common/StoreDBMaster.h	/^  ProcessMap processMap_;$/;"	m	class:storedb::StoreDBMasterProcessor
+process_add	service_common/StoreDBMaster.cpp	/^void StoreDBMasterProcessor::process_add(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:storedb::StoreDBMasterProcessor
+process_isOk	service_common/StoreDBMaster.cpp	/^void StoreDBMasterProcessor::process_isOk(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:storedb::StoreDBMasterProcessor
+process_search	service_common/StoreDBMaster.cpp	/^void StoreDBMasterProcessor::process_search(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:storedb::StoreDBMasterProcessor
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_add_args
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_add_presult
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_add_result
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_isOk_args
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_isOk_presult
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_isOk_result
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_search_args
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_search_presult
+read	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::StoreDBMaster_search_result
+read	service_common/StoreDB_types.cpp	/^uint32_t Key::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::Key
+read	service_common/StoreDB_types.cpp	/^uint32_t MultiResponse::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::MultiResponse
+read	service_common/StoreDB_types.cpp	/^uint32_t Response::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::Response
+read	service_common/StoreDB_types.cpp	/^uint32_t Value::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:storedb::Value
+recv_add	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::recv_add(Response& _return)$/;"	f	class:storedb::StoreDBMasterClient
+recv_isOk	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::recv_isOk(Response& _return)$/;"	f	class:storedb::StoreDBMasterClient
+recv_search	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::recv_search(MultiResponse& _return)$/;"	f	class:storedb::StoreDBMasterClient
+releaseHandler	service_common/StoreDBMaster.h	/^  virtual void releaseHandler(StoreDBMasterIf* \/* handler *\/) {}$/;"	f	class:storedb::StoreDBMasterIfSingletonFactory
+search	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::search(MultiResponse& _return, const std::string& prefix)$/;"	f	class:storedb::StoreDBMasterClient
+search	service_common/StoreDBMaster.h	/^  void search(MultiResponse& \/* _return *\/, const std::string& \/* prefix *\/) {$/;"	f	class:storedb::StoreDBMasterNull
+search	service_common/StoreDBMaster.h	/^  void search(MultiResponse& _return, const std::string& prefix) {$/;"	f	class:storedb::StoreDBMasterMultiface
+send_add	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::send_add(const std::string& key, const std::string& value)$/;"	f	class:storedb::StoreDBMasterClient
+send_isOk	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::send_isOk()$/;"	f	class:storedb::StoreDBMasterClient
+send_search	service_common/StoreDBMaster.cpp	/^void StoreDBMasterClient::send_search(const std::string& prefix)$/;"	f	class:storedb::StoreDBMasterClient
+setProtocol	service_common/StoreDBMaster.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:storedb::StoreDBMasterClient
+setProtocol	service_common/StoreDBMaster.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:storedb::StoreDBMasterClient
+status	service_common/StoreDB_types.h	/^  bool status;$/;"	m	class:storedb::MultiResponse
+status	service_common/StoreDB_types.h	/^  bool status;$/;"	m	class:storedb::Response
+storedb	service_common/StoreDBMaster.cpp	/^namespace storedb {$/;"	n	file:
+storedb	service_common/StoreDBMaster.h	/^namespace storedb {$/;"	n
+storedb	service_common/StoreDB_constants.cpp	/^namespace storedb {$/;"	n	file:
+storedb	service_common/StoreDB_constants.h	/^namespace storedb {$/;"	n
+storedb	service_common/StoreDB_types.cpp	/^namespace storedb {$/;"	n	file:
+storedb	service_common/StoreDB_types.h	/^namespace storedb {$/;"	n
+success	service_common/StoreDBMaster.h	/^  MultiResponse success;$/;"	m	class:storedb::StoreDBMaster_search_result
+success	service_common/StoreDBMaster.h	/^  MultiResponse* success;$/;"	m	class:storedb::StoreDBMaster_search_presult
+success	service_common/StoreDBMaster.h	/^  Response success;$/;"	m	class:storedb::StoreDBMaster_add_result
+success	service_common/StoreDBMaster.h	/^  Response success;$/;"	m	class:storedb::StoreDBMaster_isOk_result
+success	service_common/StoreDBMaster.h	/^  Response* success;$/;"	m	class:storedb::StoreDBMaster_add_presult
+success	service_common/StoreDBMaster.h	/^  Response* success;$/;"	m	class:storedb::StoreDBMaster_isOk_presult
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_add_presult__isset
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_add_result__isset
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_isOk_presult__isset
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_isOk_result__isset
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_search_presult__isset
+success	service_common/StoreDBMaster.h	/^  bool success :1;$/;"	m	struct:storedb::_StoreDBMaster_search_result__isset
+swap	service_common/StoreDB_types.cpp	/^void swap(Key &a, Key &b) {$/;"	f	namespace:storedb
+swap	service_common/StoreDB_types.cpp	/^void swap(MultiResponse &a, MultiResponse &b) {$/;"	f	namespace:storedb
+swap	service_common/StoreDB_types.cpp	/^void swap(Response &a, Response &b) {$/;"	f	namespace:storedb
+swap	service_common/StoreDB_types.cpp	/^void swap(Value &a, Value &b) {$/;"	f	namespace:storedb
+time	service_common/StoreDB_types.h	/^  bool time :1;$/;"	m	struct:storedb::_MultiResponse__isset
+time	service_common/StoreDB_types.h	/^  bool time :1;$/;"	m	struct:storedb::_Response__isset
+time	service_common/StoreDB_types.h	/^  double time;$/;"	m	class:storedb::MultiResponse
+time	service_common/StoreDB_types.h	/^  double time;$/;"	m	class:storedb::Response
+upVotes	service_common/StoreDB_types.h	/^  bool upVotes :1;$/;"	m	struct:storedb::_Value__isset
+upVotes	service_common/StoreDB_types.h	/^  int64_t upVotes;$/;"	m	class:storedb::Value
+value	service_common/StoreDBMaster.h	/^  bool value :1;$/;"	m	struct:storedb::_StoreDBMaster_add_args__isset
+value	service_common/StoreDBMaster.h	/^  const std::string* value;$/;"	m	class:storedb::StoreDBMaster_add_pargs
+value	service_common/StoreDBMaster.h	/^  std::string value;$/;"	m	class:storedb::StoreDBMaster_add_args
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_add_args
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_add_pargs
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_add_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_add_result
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_isOk_args
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_isOk_pargs
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_isOk_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_isOk_result
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_search_args
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_search_pargs
+write	service_common/StoreDBMaster.cpp	/^uint32_t StoreDBMaster_search_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::StoreDBMaster_search_result
+write	service_common/StoreDB_types.cpp	/^uint32_t Key::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::Key
+write	service_common/StoreDB_types.cpp	/^uint32_t MultiResponse::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::MultiResponse
+write	service_common/StoreDB_types.cpp	/^uint32_t Response::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::Response
+write	service_common/StoreDB_types.cpp	/^uint32_t Value::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:storedb::Value
+~Key	service_common/StoreDB_types.cpp	/^Key::~Key() throw() {$/;"	f	class:storedb::Key
+~MultiResponse	service_common/StoreDB_types.cpp	/^MultiResponse::~MultiResponse() throw() {$/;"	f	class:storedb::MultiResponse
+~Response	service_common/StoreDB_types.cpp	/^Response::~Response() throw() {$/;"	f	class:storedb::Response
+~StoreDBMasterIf	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterIf() {}$/;"	f	class:storedb::StoreDBMasterIf
+~StoreDBMasterIfFactory	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterIfFactory() {}$/;"	f	class:storedb::StoreDBMasterIfFactory
+~StoreDBMasterIfSingletonFactory	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterIfSingletonFactory() {}$/;"	f	class:storedb::StoreDBMasterIfSingletonFactory
+~StoreDBMasterMultiface	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterMultiface() {}$/;"	f	class:storedb::StoreDBMasterMultiface
+~StoreDBMasterNull	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterNull() {}$/;"	f	class:storedb::StoreDBMasterNull
+~StoreDBMasterProcessor	service_common/StoreDBMaster.h	/^  virtual ~StoreDBMasterProcessor() {}$/;"	f	class:storedb::StoreDBMasterProcessor
+~StoreDBMaster_add_args	service_common/StoreDBMaster.cpp	/^StoreDBMaster_add_args::~StoreDBMaster_add_args() throw() {$/;"	f	class:storedb::StoreDBMaster_add_args
+~StoreDBMaster_add_pargs	service_common/StoreDBMaster.cpp	/^StoreDBMaster_add_pargs::~StoreDBMaster_add_pargs() throw() {$/;"	f	class:storedb::StoreDBMaster_add_pargs
+~StoreDBMaster_add_presult	service_common/StoreDBMaster.cpp	/^StoreDBMaster_add_presult::~StoreDBMaster_add_presult() throw() {$/;"	f	class:storedb::StoreDBMaster_add_presult
+~StoreDBMaster_add_result	service_common/StoreDBMaster.cpp	/^StoreDBMaster_add_result::~StoreDBMaster_add_result() throw() {$/;"	f	class:storedb::StoreDBMaster_add_result
+~StoreDBMaster_isOk_args	service_common/StoreDBMaster.cpp	/^StoreDBMaster_isOk_args::~StoreDBMaster_isOk_args() throw() {$/;"	f	class:storedb::StoreDBMaster_isOk_args
+~StoreDBMaster_isOk_pargs	service_common/StoreDBMaster.cpp	/^StoreDBMaster_isOk_pargs::~StoreDBMaster_isOk_pargs() throw() {$/;"	f	class:storedb::StoreDBMaster_isOk_pargs
+~StoreDBMaster_isOk_presult	service_common/StoreDBMaster.cpp	/^StoreDBMaster_isOk_presult::~StoreDBMaster_isOk_presult() throw() {$/;"	f	class:storedb::StoreDBMaster_isOk_presult
+~StoreDBMaster_isOk_result	service_common/StoreDBMaster.cpp	/^StoreDBMaster_isOk_result::~StoreDBMaster_isOk_result() throw() {$/;"	f	class:storedb::StoreDBMaster_isOk_result
+~StoreDBMaster_search_args	service_common/StoreDBMaster.cpp	/^StoreDBMaster_search_args::~StoreDBMaster_search_args() throw() {$/;"	f	class:storedb::StoreDBMaster_search_args
+~StoreDBMaster_search_pargs	service_common/StoreDBMaster.cpp	/^StoreDBMaster_search_pargs::~StoreDBMaster_search_pargs() throw() {$/;"	f	class:storedb::StoreDBMaster_search_pargs
+~StoreDBMaster_search_presult	service_common/StoreDBMaster.cpp	/^StoreDBMaster_search_presult::~StoreDBMaster_search_presult() throw() {$/;"	f	class:storedb::StoreDBMaster_search_presult
+~StoreDBMaster_search_result	service_common/StoreDBMaster.cpp	/^StoreDBMaster_search_result::~StoreDBMaster_search_result() throw() {$/;"	f	class:storedb::StoreDBMaster_search_result
+~Value	service_common/StoreDB_types.cpp	/^Value::~Value() throw() {$/;"	f	class:storedb::Value

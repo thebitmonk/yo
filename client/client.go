@@ -87,7 +87,11 @@ func (c *Client) SearchCommand(prefix string) (bool, string, []storedb.Value) {
 	}
 	var subcommands = make([]storedb.Value, 10)
 	json.Unmarshal(contents, &subcommands)
-	return true, "Yay found results in Yo DB !", subcommands
+	if len(subcommands) == 0 {
+		return false, "Oops no result found. Care to add an entry !", subcommands
+	} else {
+		return true, "Yay found results in Yo DB !", subcommands
+	}
 
 }
 
